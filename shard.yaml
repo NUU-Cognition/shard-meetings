@@ -1,0 +1,5 @@
+shard-spec: "0.1.0"
+version: "0.1.0"
+name: Meetings
+shorthand: m
+description: Meetings shard
