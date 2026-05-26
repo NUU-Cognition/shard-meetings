@@ -1,3 +1,5 @@
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
 This workflow belongs to the Meetings shard. Ensure you have @init-meet.md in context before continuing.
 
 # Workflow: Process Meeting
@@ -14,20 +16,20 @@ Take a meeting file containing a raw transcript and produce a structured summary
 
 1. Read the meeting file
 2. Extract the transcript content (everything below the frontmatter, or the entire body if no frontmatter)
-3. Create the Raw derivative using [[tmp-meet-raw-v0.1]]:
+3. Create the Raw derivative using [[dev-tmp-meet-raw-v0.1]]:
    - Filename: `(Meeting) Name (Date) . Raw.md`
-   - Move the transcript content verbatim into this file
+   - Copy the original meeting file (don't generate the whole pasted again)
    - Add frontmatter with `#meet/raw` tag and `parent` link to the summary file
 4. Clear the body of the original meeting file (keep frontmatter if it exists)
 
 ## Stage 2: Clean Transcript
 
-1. Run [[sk-meet-clean]] on the raw transcript to produce a base cleaned version (strip timestamps, speaker tags, filler words, formatting artifacts)
+1. Run [[dev-sk-meet-clean]] on the raw transcript to produce a base cleaned version (strip timestamps, speaker tags, filler words, formatting artifacts)
 2. **Prompt the user:** "Would you like to apply additional cleanup addons?"
-   - **Transcription correction** (`sk-meet-correct`) — uses Flint context to fix misheard domain terms, project names, and concepts
+   - **Transcription correction** (`dev-sk-meet-correct`) — uses Flint context to fix misheard domain terms, project names, and concepts
    - **None** — proceed with base cleanup only
 3. If addons selected, run them sequentially on the cleaned output
-4. If any addons were applied, create the Cleaned derivative using [[tmp-meet-cleaned-v0.1]]:
+4. If any addons were applied, create the Cleaned derivative using [[dev-tmp-meet-cleaned-v0.1]]:
    - Filename: `(Meeting) Name (Date) . Cleaned.md`
    - Track which corrections were applied in `corrections-applied` field
 
@@ -35,7 +37,7 @@ Take a meeting file containing a raw transcript and produce a structured summary
 
 1. Use the cleaned transcript (or base-cleaned if no addons) as source material
 2. Read other recent meetings and relevant Mesh context to inform the summary
-3. Generate the summary using [[tmp-meet-summary-v0.1]] into the original meeting file
+3. Generate the summary using [[dev-tmp-meet-summary-v0.1]] into the original meeting file
 4. Ensure the summary frontmatter links to the Raw derivative (and Cleaned if it exists)
 
 ## Stage 4: Review

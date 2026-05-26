@@ -3,3 +3,8 @@ version: "0.2.0"
 name: Meetings
 shorthand: meet
 description: Meeting transcript processing — raw transcripts to structured summaries with optional cleanup and correction
+dependencies:
+  - source: NUU-Cognition/shard-flint
+
+types:
+  - Meeting

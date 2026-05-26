@@ -1,3 +1,5 @@
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
 This skill belongs to the Meetings shard. Ensure you have @init-meet.md in context before continuing.
 
 # Skill: Correct Transcription
@@ -6,7 +8,7 @@ Context-aware transcription correction that uses the Flint's knowledge to fix mi
 
 # Input
 
-- Cleaned transcript text (output of `sk-meet-clean` or the raw transcript)
+- Cleaned transcript text (output of `dev-sk-meet-clean` or the raw transcript)
 - The Flint workspace context (loaded via init files, mesh content)
 
 # Actions

@@ -9,7 +9,9 @@ date: [YYYY-MM-DD]
 parent: "[[parent meeting summary file]]"
 [agent]-sessions:
   - "[[agent-session-uuid]]"
-template: "[[tmp-meet-raw-v0.1]]"
+template: "[[dev-tmp-meet-raw-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 [Original transcript content — moved verbatim from the parent file. Do not modify.]

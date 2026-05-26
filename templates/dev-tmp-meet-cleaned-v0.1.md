@@ -12,7 +12,9 @@ corrections-applied:
   - (continue)
 [agent]-sessions:
   - "[[agent-session-uuid]]"
-template: "[[tmp-meet-cleaned-v0.1]]"
+template: "[[dev-tmp-meet-cleaned-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 [Cleaned transcript content — the result of running cleanup skills on the raw transcript. This version has corrections applied (misheard words fixed, domain terms corrected, etc.) while preserving the original conversational structure.]

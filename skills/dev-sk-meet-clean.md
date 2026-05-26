@@ -1,3 +1,5 @@
+> [!important] THIS FILE IS AN INSTRUCTION. WHEN REFERENCED IT IS MEANT TO BE TAKEN AS AN ACTION.
+
 This skill belongs to the Meetings shard. Ensure you have @init-meet.md in context before continuing.
 
 # Skill: Clean Transcript

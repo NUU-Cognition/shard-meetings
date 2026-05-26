@@ -15,7 +15,9 @@ raw: "[[(Meeting) [Name] ([YYYY-MM-DD]) . Raw]]"
 cleaned: "[[(Meeting) [Name] ([YYYY-MM-DD]) . Cleaned]]"
 [agent]-sessions:
   - "[[agent-session-uuid]]"
-template: "[[tmp-meet-summary-v0.1]]"
+template: "[[dev-tmp-meet-summary-v0.1]]"
+authors: /* from .flint/identity.json; omit if no identity set */
+  - "[[@Person Name]]"
 ---
 
 ## Overview
