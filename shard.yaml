@@ -3,12 +3,13 @@ id: 44918681-ad5a-4969-b1de-afed307e0d7b
 org: nuu-cognition
 source:
   id: bd671147-0b48-489f-968d-6b6d635648eb
-version: "0.2.0"
+version: "0.2.1"
 name: Meetings
 shorthand: meet
 description: Meeting transcript processing — raw transcripts to structured summaries with optional cleanup and correction
 dependencies:
-  "@nuu-cognition/flint": ""
+  - source: NUU-Cognition/shard-flint
+    version: "0.3.0"
 
 types:
   - Meeting
