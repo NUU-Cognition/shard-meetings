@@ -1,9 +1,9 @@
 shard-spec: "0.3.0"
 id: 44918681-ad5a-4969-b1de-afed307e0d7b
-org: nuu-cognition
+org: nuucognition
 source:
   id: bd671147-0b48-489f-968d-6b6d635648eb
-version: "0.2.1"
+version: "0.2.2"
 name: Meetings
 shorthand: meet
 description: Meeting transcript processing — raw transcripts to structured summaries with optional cleanup and correction
