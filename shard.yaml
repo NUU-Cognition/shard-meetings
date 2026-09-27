@@ -1,6 +1,6 @@
-shard-spec: "0.3.0"
+shard-spec: "0.4.0"
+shard: "@nuucognition/meetings"
 id: 44918681-ad5a-4969-b1de-afed307e0d7b
-org: nuucognition
 source:
   id: bd671147-0b48-489f-968d-6b6d635648eb
 version: "0.2.2"
