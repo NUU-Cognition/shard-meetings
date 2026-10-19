@@ -13,8 +13,8 @@ attendees:
 raw: "[[(Meeting) [Name] ([YYYY-MM-DD]) . Raw]]"
 /* If corrections were applied: */
 cleaned: "[[(Meeting) [Name] ([YYYY-MM-DD]) . Cleaned]]"
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-meet-summary-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"

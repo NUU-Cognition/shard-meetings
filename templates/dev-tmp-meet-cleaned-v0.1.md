@@ -10,8 +10,8 @@ parent: "[[parent meeting summary file]]"
 corrections-applied:
   - [list of correction types applied, e.g. "transcription-correction", "speaker-identification"]
   - (continue)
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-meet-cleaned-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"

@@ -7,8 +7,8 @@ tags:
   - "#meet/raw"
 date: [YYYY-MM-DD]
 parent: "[[parent meeting summary file]]"
-[agent]-sessions:
-  - "[[agent-session-uuid]]"
+orb:
+  - "[the output of flint address me]"
 template: "[[dev-tmp-meet-raw-v0.1]]"
 authors: /* from .flint/identity.json; omit if no identity set */
   - "[[@Person Name]]"
